@@ -145,7 +145,7 @@ button:hover {
   .form-image {
     display: block;
     flex-basis: 45%;
-    background-image: url("./assets/komarnicki-media-bg-black.png");
+    background-image: url("./assets/bg-black-square.png");
     border-radius: 12px 0 0 12px;
   }
 
