@@ -12,9 +12,53 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Elegant Form With Custom Validation</title>
+    <title>Elegant Form With HTML & CSS</title>
   </head>
   <body>
-    <script src="./app.js"></script>
+    <div class="container">
+      <div class="sign-up-form">
+        <!-- Left (Form Image) -->
+        <div class="form-image">
+          <img src="./assets/bg_form_validation.png" alt="" />
+        </div>
+        <!-- Right (Form Content) -->
+        <form class="form-content">
+          <!-- Form Heading -->
+          <div class="form-heading">
+            <img src="./assets/logo.png" alt="" />
+            <h1>Create Account</h1>
+            <p>Please fill out all the required fields to create your account!</p>
+          </div>
+          <!-- Input Wrap -->
+          <div class="input-wrap">
+            <div class="input">
+              <input type="text" id="username" placeholder=" " />
+              <div class="label">
+                <label for="username">Username</label>
+              </div>
+            </div>
+            <div class="input">
+              <input type="email" id="email" placeholder=" " />
+              <div class="label">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="input">
+              <input type="password" id="password" placeholder=" " />
+              <div class="label">
+                <label for="password">Password</label>
+              </div>
+            </div>
+            <div class="input">
+              <input type="password" id="confirmPassword" placeholder=" " />
+              <div class="label">
+                <label for="confirmPassword">Confirm Password </label>
+              </div>
+            </div>
+            <button type="submit">Create Account</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
